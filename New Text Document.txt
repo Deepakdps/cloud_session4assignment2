@@ -1,0 +1,19 @@
+STEPS FOR CREATING SNAPSHOT AND INCREASING VOLUME OF ROOT DRIVE
+CREATE A WINDOWS INSTANCE
+1.click on the volumes change the name to webserver 
+2.right click on volumes and click create snapshot name it as webserverwith50gb
+give the extension
+3.click on the snapshot id
+4.right click on webserverwith50gb and click create volume
+5.give the range to extend as 50gb and make the availability zone same as the availability zone of the instance created
+6.create volume > click on volume
+7.give the name webwith50gb
+8.right click on webserver and click detach 
+9.click on the reload button on the right top
+10.click on the webwith50gb
+11.In the popup dialog box paste the 
+-instance with windows instance id 
+-device with root volume of webserver
+12.Goto instance select launch instance
+13.Right click on localdiskc >disk management
+14.click on extend volume click next >finish   
